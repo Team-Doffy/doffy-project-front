@@ -4,13 +4,13 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "dev": "concurrently \"next dev\" vite",
+    "dev": "concurrently \"next dev --port 3000\" vite",
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
     "test": "jest --watchAll",
     "cypress": "cypress open",
-    "e2e": "start-server-and-test dev http://localhost:3100 \"cypress open --e2e\""
+    "e2e": "start-server-and-test dev http://localhost:3000 \"cypress open --e2e\""
   },
   "dependencies": {
     "@tanstack/react-query": "^4.24.10",

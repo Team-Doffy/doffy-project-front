@@ -2,8 +2,10 @@
     "compilerOptions": {
       "target": "es5",
       "lib": ["es5", "dom"],
+      "baseUrl": "../node_modules",
       "types": ["cypress", "@testing-library/cypress", "node"],
       "outDir": "#"
     },
-    "include": ["**/*.ts"]
-  }
+    "include": ["**/*.ts"],
+    "exclude": ["jest"]    
+}
