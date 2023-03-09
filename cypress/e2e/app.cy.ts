@@ -1,5 +1,8 @@
 describe('template spec', () => {
   it('passes', () => {
-    console.log('test');
+    cy.visit('http://localhost:3000/')
+
   })
 })
+
+export {};

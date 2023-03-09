@@ -9,9 +9,8 @@ export default defineConfig({
   },
   component: {
     devServer: {
-      framework: "next",
-      bundler: "webpack",
+      framework: 'next',
+      bundler: 'webpack',
     },
   },
-  web
 });

@@ -4,7 +4,8 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "dev": "concurrently \"next dev --port 3000\" vite",
+    "dev": "next dev --turbo",
+    "cypress-dev": "next dev",
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
@@ -26,6 +27,8 @@
     "zustand": "^4.3.5"
   },
   "devDependencies": {
+    "@cypress/vite-dev-server": "^5.0.4",
+    "@cypress/webpack-preprocessor": "^5.17.0",
     "@next/eslint-plugin-next": "^13.2.3",
     "@testing-library/cypress": "^9.0.0",
     "@testing-library/jest-dom": "^5.16.5",

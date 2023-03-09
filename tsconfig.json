@@ -28,6 +28,6 @@
     },
     "baseUrl": "."
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "**/*.js", ".next/types/**/*.ts"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "**/*.js", ".next/types/**/*.ts", "cypress.config.ts_bak"],
   "exclude": ["node_modules"]
 }
