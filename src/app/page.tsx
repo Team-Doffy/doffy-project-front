@@ -1,6 +1,8 @@
 import Image from 'next/image'
 import { Inter } from 'next/font/google'
 import styles from './page.module.css'
+import React from 'react'
+import '../styles/globals.css';
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -8,9 +10,9 @@ export default function Home() {
   return (
     <main className={styles.main}>
       <div className={styles.description}>
-        <p>
+        <p className='text-sm text-gray-700'>
           Get started by editing&nbsp;
-          <code className={styles.code}>src/app/page.tsx</code>
+          <code className="text-sm text-gray-700">src/app/page.tsx</code>
         </p>
         <div>
           <a
