@@ -6,6 +6,7 @@
     "source.fixAll.eslint": true
   },
   "files.autoSave": "onFocusChange",
+  "prettier.configPath": ".prettierrc.json"
   // "editor.defaultFormatter": "esbenp.prettier-vscode",
   // "[javascript]": {
   //   "editor.formatOnSave": false
